@@ -22,8 +22,7 @@ if (div2 == 0 && div3 == 0 && div5 == 0 && div7 == 7) {
     document.write(`el numero ${num1} es divisible por 2,3 y 5`)
 } else if (div2 == 0 && div3 == 0) {
     document.write(`el numero ${num1} es divisible por 2 y 3`)
-}
-else if (div2 == 0) {
+} else if (div2 == 0) {
     document.write(`el numero ${num1} es divisible por 2`)
 } else if (div3 == 0) {
     document.write(`el numero ${num1} es divisible por 3`)

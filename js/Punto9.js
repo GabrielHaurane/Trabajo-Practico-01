@@ -7,7 +7,14 @@ input: Hola mundo
 Output: oauo
 
 */
+const frase = prompt(`agrege una frase hasta 10 caracteres`)
 
-const frase = prompt(`ingrese una frase como maximo 5 letras`);
-const vocales = "";
+if (frase.length <= 10 ) {
+    if (frase.substring(0,10) == `a` || frase.substring(0,10) == `e` || frase.substring(0,10) == `i`|| frase.substring(0,10) == `o` || frase.substring(0,10) == `u`) {
+        console.log(`sus vocales son ${frase}`);
+    }
+    
+} else {
+    document.write(`la cantidad de caracteres es incorrecta`)
+}
 
