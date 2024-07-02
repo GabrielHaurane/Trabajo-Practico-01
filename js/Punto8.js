@@ -8,7 +8,7 @@ Output: El 10 es divisible por 2.
 Output: El 15 no es divisible por 2.
 */
 const num1 = parseInt(prompt(`ingrese un numero`));
-const division = parseInt((num1%2));
+const division = parseInt(num1%2);
 
 if (division == 0) {
     document.write(`<p>el ${num1} es divisible en 2 </p>`)
